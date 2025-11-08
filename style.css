@@ -1,0 +1,40 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  background-color: #F5F5DC; /* 米白色 */
+  overflow: hidden; /* 隱藏滾動條 */
+  font-family: sans-serif;
+}
+
+canvas {
+  display: block;
+}
+
+.title {
+  color: hsl(34, 100%, 12%);
+  font-size: 60px;
+  text-align: center;
+  width: 100%;
+  position: absolute;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  position: absolute;
+}
+
+.custom-button {
+  font-size: 40px;
+  padding: 20px 40px; 
+  margin: 0 20px;
+  background-color: rgb(255, 255, 202); /* 黃色背景 */
+  border: 5px solid #A0522D; /* 深棕色外框 */
+  border-radius: 15px; /* 圓角 */
+  color: #A0522D; /* 深棕色文字 */
+  cursor: pointer; /* 滑鼠懸停時顯示指標 */
+  min-width: 500px; /* 設定最小寬度 */
+  min-height: 300px; /* 設定最小高度 */
+}
