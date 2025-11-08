@@ -12,7 +12,7 @@ canvas {
 
 .title {
   color: hsl(34, 100%, 12%);
-  font-size: 60px;
+  font-size: 50px;
   text-align: center;
   width: 100%;
   position: absolute;
@@ -27,7 +27,7 @@ canvas {
 }
 
 .custom-button {
-  font-size: 40px;
+  font-size: 30px;
   padding: 20px 40px; 
   margin: 0 20px;
   background-color: rgb(255, 255, 202); /* 黃色背景 */
@@ -35,6 +35,6 @@ canvas {
   border-radius: 15px; /* 圓角 */
   color: #A0522D; /* 深棕色文字 */
   cursor: pointer; /* 滑鼠懸停時顯示指標 */
-  min-width: 500px; /* 設定最小寬度 */
-  min-height: 300px; /* 設定最小高度 */
+  min-width: 200px; /* 設定最小寬度 */
+  min-height: 100px; /* 設定最小高度 */
 }
